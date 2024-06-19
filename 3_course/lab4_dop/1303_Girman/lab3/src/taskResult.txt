@@ -1,0 +1,151 @@
+Список абитуриентов на заданный факультет?
+[
+  {
+    "uniqueNumber": 15089468,
+    "lastName": "Шестаков",
+    "firstName": "Вальтер",
+    "middleName": "Всеволодович",
+    "facultyName": "ФКТИ"
+  },
+  {
+    "uniqueNumber": 19828121,
+    "lastName": "Меркушев",
+    "firstName": "Альфред",
+    "middleName": "Протасьевич",
+    "facultyName": "ФКТИ"
+  },
+  {
+    "uniqueNumber": 21952948,
+    "lastName": "Носова",
+    "firstName": "Рамина",
+    "middleName": "Михаиловна",
+    "facultyName": "ФКТИ"
+  },
+  {
+    "uniqueNumber": 66862382,
+    "lastName": "Лукина",
+    "firstName": "Анэля",
+    "middleName": "Аристарховна",
+    "facultyName": "ФКТИ"
+  },
+  {
+    "uniqueNumber": 98664711,
+    "lastName": "Кузнецова",
+    "firstName": "Юнона",
+    "middleName": "Ильяовна",
+    "facultyName": "ФКТИ"
+  }
+]
+
+Оценки, полученные указанным абитуриентом?
+[
+  {
+    "lastName": "Меркушев",
+    "firstName": "Альфред",
+    "middleName": "Протасьевич",
+    "subjectName": "Математика",
+    "grade": 4
+  },
+  {
+    "lastName": "Меркушев",
+    "firstName": "Альфред",
+    "middleName": "Протасьевич",
+    "subjectName": "Физика",
+    "grade": 5
+  },
+  {
+    "lastName": "Меркушев",
+    "firstName": "Альфред",
+    "middleName": "Протасьевич",
+    "subjectName": "Информатика",
+    "grade": 3
+  }
+]
+
+Когда и в какой аудитории будет консультация и экзамен у заданного абитуриента по указанному предмету?
+[
+  {
+    "uniqueNumber": 19828121,
+    "lastName": "Меркушев",
+    "firstName": "Альфред",
+    "middleName": "Протасьевич",
+    "subjectName": "Математика",
+    "examDate": "2023-08-10",
+    "examTime": "10:00:00",
+    "examAuditorium": 3322,
+    "consultationDate": "2024-08-05",
+    "consultationTime": "18:00:00",
+    "consultationAuditorium": null
+  }
+]
+
+Где, когда и по каким предметам будут проходить экзамены у заданной группы?
+[
+  {
+    "groupNumber": 1303,
+    "subjectName": "Математика",
+    "date": "2023-08-10",
+    "time": "10:00:00",
+    "auditorium": 3322
+  },
+  {
+    "groupNumber": 1303,
+    "subjectName": "Физика",
+    "date": "2023-08-15",
+    "time": "09:00:00",
+    "auditorium": 3102
+  },
+  {
+    "groupNumber": 1303,
+    "subjectName": "Информатика",
+    "date": "2023-08-20",
+    "time": "15:00:00",
+    "auditorium": 5413
+  }
+]
+
+Конкурс на каждый факультет?
+[
+  {
+    "facultyName": "ГФ",
+    "competition": "3"
+  },
+  {
+    "facultyName": "ФКТИ",
+    "competition": "5"
+  }
+]
+
+Средний балл по каждому предмету на каждом факультете?
+[
+  {
+    "facultyName": "ГФ",
+    "subjectName": "Английский Язык",
+    "averageScore": "5.00"
+  },
+  {
+    "facultyName": "ГФ",
+    "subjectName": "Литература",
+    "averageScore": "4.33"
+  },
+  {
+    "facultyName": "ГФ",
+    "subjectName": "Русский Язык",
+    "averageScore": "3.50"
+  },
+  {
+    "facultyName": "ФКТИ",
+    "subjectName": "Информатика",
+    "averageScore": "3.50"
+  },
+  {
+    "facultyName": "ФКТИ",
+    "subjectName": "Математика",
+    "averageScore": "3.40"
+  },
+  {
+    "facultyName": "ФКТИ",
+    "subjectName": "Физика",
+    "averageScore": "4.50"
+  }
+]

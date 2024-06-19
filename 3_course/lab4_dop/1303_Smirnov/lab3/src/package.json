@@ -1,0 +1,19 @@
+{
+  "name": "sqllab3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "npx tsx index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sequelize/core": "^7.0.0-alpha.29",
+    "pg": "^8.11.3",
+    "sequelize-typescript": "^2.1.5",
+    "typescript": "^5.2.2"
+  }
+}

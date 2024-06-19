@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "es2022",
+    "target": "es2022",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "moduleResolution": "Node"
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": ["**/*.ts"]
+}

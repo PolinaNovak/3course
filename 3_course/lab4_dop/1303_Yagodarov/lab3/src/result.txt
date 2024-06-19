@@ -1,0 +1,146 @@
+1. На каком ринге 2023-11-10 выступает хозяин с идентификатором 5?
+[
+  {
+    "id": "1"
+  },
+  {
+    "id": "5"
+  }
+]
+
+2. Какими породами представлен клуб?
+[
+  {
+    "club_id": "1",
+    "dogs": [
+      {
+        "breed_id": "1",
+        "breed": {
+          "name": "Labrador"
+        }
+      }
+    ]
+  },
+  {
+    "club_id": "2",
+    "dogs": [
+      {
+        "breed_id": "1",
+        "breed": {
+          "name": "Labrador"
+        }
+      }
+    ]
+  },
+  {
+    "club_id": "3",
+    "dogs": [
+      {
+        "breed_id": "2",
+        "breed": {
+          "name": "Poodle"
+        }
+      }
+    ]
+  },
+  {
+    "club_id": "4",
+    "dogs": [
+      {
+        "breed_id": "2",
+        "breed": {
+          "name": "Poodle"
+        }
+      }
+    ]
+  },
+  {
+    "club_id": "5",
+    "dogs": [
+      {
+        "breed_id": "2",
+        "breed": {
+          "name": "Poodle"
+        }
+      },
+      {
+        "breed_id": "3",
+        "breed": {
+          "name": "Bulldog"
+        }
+      }
+    ]
+  }
+]
+
+3. Какие медали и сколько заслужены клубом??
+[
+  {
+    "club_id": "1",
+    "rank": 2,
+    "medalcount": "2"
+  },
+  {
+    "club_id": "2",
+    "rank": 1,
+    "medalcount": "1"
+  },
+  {
+    "club_id": "3",
+    "rank": 1,
+    "medalcount": "1"
+  },
+  {
+    "club_id": "3",
+    "rank": 2,
+    "medalcount": "1"
+  },
+  {
+    "club_id": "4",
+    "rank": 1,
+    "medalcount": "1"
+  },
+  {
+    "club_id": "5",
+    "rank": 2,
+    "medalcount": "1"
+  },
+  {
+    "club_id": "5",
+    "rank": 3,
+    "medalcount": "2"
+  }
+]
+
+4. Какие эксперты обслуживают породу?
+[
+  {
+    "name": "Bulldog",
+    "experts": "Fred Bloggs"
+  },
+  {
+    "name": "Labrador",
+    "experts": "Alex Mercer, John Smith, Sally Brown"
+  },
+  {
+    "name": "Poodle",
+    "experts": "Jane Doe, Alex Mercer, John Smith"
+  }
+]
+
+5. Количество участников по каждой породе?
+[
+  {
+    "name": "Poodle",
+    "dog_count": "3"
+  },
+  {
+    "name": "Labrador",
+    "dog_count": "2"
+  },
+  {
+    "name": "Bulldog",
+    "dog_count": "1"
+  }
+]
+

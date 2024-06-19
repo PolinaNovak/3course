@@ -1,0 +1,98 @@
+doctype html
+html
+    head
+        link(rel='stylesheet', href='/stylesheets/style.css')
+    body
+        block content
+
+        .row
+            .col-md-12
+                .query1
+                    h3 Предмет:
+                    form#get_subject(method='POST' action=`/get_subject`)
+                        label(for='class') Class:
+                        br
+                        input#class(type='text' name='class' value='15737J' required)
+                        br
+                        label(for='day') Day:
+                        br
+                        input#day(type='text' name='day' value='Среда' required)
+                        br
+                        label(for='order_number') Order number:
+                        br
+                        input#order_number(type='number' name='order_number' value=5 required)
+
+                    .form-row
+                        .text-center.p-3.col-12
+                            button#submit1.btn.btn-secondary.text-light.my-2(type='submit' form="get_subject") Get
+
+                .query2
+                    h3 Учитель:
+                    form#get_teacher(method='POST' action=`/get_teacher`)
+                        label(for='class') Class:
+                        br
+                        input#class2(type='text' name='class' value='25448F' required)
+
+                    .form-row
+                        .text-center.p-3.col-12
+                            button#submit2.btn.btn-secondary.text-light.my-2(type='submit' form="get_teacher") Get
+
+                .query3
+                    h3 Кабинет W5:
+                    form#get_cabinet(method='POST' action=`/get_cabinet`)
+                        label(for='class') Class:
+                        br
+                        input#class3(type='text' name='class' value='26604Z' required)
+
+                    .form-row
+                        .text-center.p-3.col-12
+                            button#submit3.btn.btn-secondary.text-light.my-2(type='submit' form="get_cabinet") Get
+
+                .query4
+                    h3 Класс:
+                    form#get_class(method='POST' action=`/get_class`)
+                        label(for='subject') Subject:
+                        br
+                        input#subject(type='text' name='subject' value='Математика' required)
+                        br
+                        label(for='lastName') Last Name:
+                        br
+                        input#lastName(type='text' name='lastName' value='Шашков' required)
+                        br
+                        label(for='firstName') First Name:
+                        br
+                        input#firstName(type='text' name='firstName' value='Поликарп' required)
+                        br
+                        label(for='patronymic') First Name:
+                        br
+                        input#patronymic(type='text' name='patronymic' value='Иосифович' required)
+
+                    .form-row
+                        .text-center.p-3.col-12
+                            button#submit4.btn.btn-secondary.text-light.my-2(type='submit' form="get_class") Get
+
+                .query5
+                    h3 Расписание:
+                    form#get_schedule(method='POST' action=`/get_schedule`)
+                        label(for='class') Class:
+                        br
+                        input#class5(type='text' name='class' value='15737J' required)
+                        br
+                        label(for='day') Day:
+                        br
+                        input#day5(type='text' name='day' value='Среда' required)
+
+                    .form-row
+                        .text-center.p-3.col-12
+                            button#submit5.btn.btn-secondary.text-light.my-2(type='submit' form="get_schedule") Get
+
+                .query6
+                    h3 Кол-во учеников:
+                    form#get_count(method='POST' action=`/get_count`)
+                        label(for='class') Class:
+                        br
+                        input#class6(type='text' name='class' value='25448F' required)
+
+                    .form-row
+                        .text-center.p-3.col-12
+                            button#submit6.btn.btn-secondary.text-light.my-2(type='submit' form="get_count") Get

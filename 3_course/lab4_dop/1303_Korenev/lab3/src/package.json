@@ -1,0 +1,16 @@
+{
+  "name": "bdpostman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "createSchemas.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.11.3",
+    "sequelize": "^6.33.0"
+  }
+}

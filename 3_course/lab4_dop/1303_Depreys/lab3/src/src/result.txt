@@ -1,0 +1,180 @@
+Какое количество яиц получают от каждой курицы данного веса, породы, возраста?
+[
+  {
+    "chicken_id": 9,
+    "eggs_per_month": 18
+  },
+  {
+    "chicken_id": 10,
+    "eggs_per_month": 21
+  }
+]
+
+В каком цехе наибольшее количество кур определенной породы?
+[
+  {
+    "workshop_number": 2
+  }
+]
+
+В каких клетках находятся куры указанного возраста с заданным номером диеты?
+[
+  {
+    "cell_id": 8,
+    "workshop_number": 2,
+    "row_number": 3,
+    "cell_number": 2
+  },
+  {
+    "cell_id": 7,
+    "workshop_number": 2,
+    "row_number": 3,
+    "cell_number": 1
+  }
+]
+
+Сколько яиц в день приносят куры указанного работника?
+[
+  {
+    "eggs_per_day": "1.5440210249671485"
+  }
+]
+
+Среднее количество яиц, которое получает в день каждый работник от обслуживаемых им кур?
+[
+  {
+    "worker_id": 3,
+    "average_eggs_per_day": "0.49277266754270696452"
+  },
+  {
+    "worker_id": 5,
+    "average_eggs_per_day": "0.42706964520367936925"
+  },
+  {
+    "worker_id": 4,
+    "average_eggs_per_day": "0.49277266754270696452"
+  },
+  {
+    "worker_id": 6,
+    "average_eggs_per_day": "0.85413929040735873850"
+  },
+  {
+    "worker_id": 2,
+    "average_eggs_per_day": "1.6425755584756899"
+  },
+  {
+    "worker_id": 7,
+    "average_eggs_per_day": "0.59132720105124835742"
+  },
+  {
+    "worker_id": 1,
+    "average_eggs_per_day": "0.59132720105124835742"
+  }
+]
+
+В каком цехе находится курица, от которой получают больше всего яиц?
+[
+  {
+    "cell": {
+      "workshop_number": 1
+    }
+  }
+]
+
+Сколько кур каждой породы в каждом цехе?
+[
+  {
+    "count": "1",
+    "workshop_number": 1,
+    "breed": {
+      "breed_name": "Ломан Браун"
+    }
+  },
+  {
+    "count": "2",
+    "workshop_number": 1,
+    "breed": {
+      "breed_name": "Маран"
+    }
+  },
+  {
+    "count": "1",
+    "workshop_number": 1,
+    "breed": {
+      "breed_name": "Русская белая"
+    }
+  },
+  {
+    "count": "2",
+    "workshop_number": 2,
+    "breed": {
+      "breed_name": "Адлерская серебристая курица"
+    }
+  },
+  {
+    "count": "2",
+    "workshop_number": 2,
+    "breed": {
+      "breed_name": "Орловские куры"
+    }
+  },
+  {
+    "count": "1",
+    "workshop_number": 3,
+    "breed": {
+      "breed_name": "Орловские куры"
+    }
+  },
+  {
+    "count": "1",
+    "workshop_number": 3,
+    "breed": {
+      "breed_name": "Русская белая"
+    }
+  }
+]
+
+Какое количество кур обслуживает каждый работник?
+[
+  {
+    "worker_id": 1,
+    "count": "1"
+  },
+  {
+    "worker_id": 2,
+    "count": "3"
+  },
+  {
+    "worker_id": 3,
+    "count": "1"
+  },
+  {
+    "worker_id": 4,
+    "count": "1"
+  },
+  {
+    "worker_id": 5,
+    "count": "1"
+  },
+  {
+    "worker_id": 6,
+    "count": "2"
+  },
+  {
+    "worker_id": 7,
+    "count": "1"
+  },
+  {
+    "worker_id": 8,
+    "count": "0"
+  },
+  {
+    "worker_id": 9,
+    "count": "0"
+  },
+  {
+    "worker_id": 10,
+    "count": "0"
+  }
+]
+
